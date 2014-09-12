@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="0" message="Information obtained successfully."/>
+ <data null="false">
+  <status type="boolean">1</status>
+  <message type="string">User created id: XXXX</message>
+  <error_details type="NULL"></error_details>
+  <user_id type="integer">XXXX</user_id>
+  <zd_user_id type="integer">XXXXX</zd_user_id>
+ </data>
+</response>

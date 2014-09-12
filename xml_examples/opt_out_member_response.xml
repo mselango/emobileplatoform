@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="0" message="Members Removed Successsfully."/>
+ <data null="false">
+  <no_members_opted_out type="integer">2</no_members_opted_out>
+  <error type="string"> No member is associated with phone number XXXXX XXXX</error>
+ </data>
+</response>

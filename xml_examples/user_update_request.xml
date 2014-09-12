@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<operation api_version="1.0" type="submit">
+ <auth username="ENTER_USERNAME_HERE" api_key="ENTER_API_KEY_HERE"/>
+ <action group="user" method="update"/>
+ <param null="false">
+  <account_id type="integer">XXXX</account_id>
+  <user_id type="integer">XXXX</user_id>
+  <user_status type="integer">1</user_status>
+  <first_name type="string">John</first_name>
+  <last_name type="string">Doe</last_name>
+  <email type="string">john.doe30@example.com</email>
+  <mobile type="string">1111111111</mobile>
+  <phone type="string">1111111111</phone>
+  <website type="string">example.com</website>
+  <username type="string">rprincipe_test30</username>
+ </param>
+</operation>

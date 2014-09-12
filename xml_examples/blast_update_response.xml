@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="0" message="SMS Blast Updated Successfully"/>
+ <data null="false">
+  <blast_update type="integer">1</blast_update>
+ </data>
+</response>

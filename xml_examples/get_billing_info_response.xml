@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="0" message="Information obtained successfully."/>
+ <data null="false">
+  <US type="array">
+   <id type="string">XXXX</id>
+   <plan_name type="string">Default Plan</plan_name>
+   <base_price type="string">120</base_price>
+   <num_allotted_msgs type="integer">0</num_allotted_msgs>
+   <overage_rate_per_msg type="string">0.036</overage_rate_per_msg>
+   <num_allotted_mos type="integer">0</num_allotted_mos>
+   <overage_rate_per_mo type="integer">0</overage_rate_per_mo>
+   <num_allotted_keywords type="integer">0</num_allotted_keywords>
+   <overage_rate_per_keyword type="integer">0</overage_rate_per_keyword>
+   <num_keyword_campaigns type="integer">0</num_keyword_campaigns>
+   <overage_per_keyword_campaign type="integer">0</overage_per_keyword_campaign>
+   <num_vote_campaigns type="integer">0</num_vote_campaigns>
+   <overage_per_vote_campaign type="integer">0</overage_per_vote_campaign>
+   <num_ar_campaigns type="integer">0</num_ar_campaigns>
+   <overage_per_ar_campaign type="integer">0</overage_per_ar_campaign>
+   <num_t2s_campaigns type="integer">0</num_t2s_campaigns>
+   <overage_per_t2s_campaign type="integer">0</overage_per_t2s_campaign>
+   <num_survey_campaigns type="integer">0</num_survey_campaigns>
+   <overage_per_survey_campaign type="integer">0</overage_per_survey_campaign>
+   <num_trivia_campaigns type="integer">0</num_trivia_campaigns>
+   <overage_per_trivia_campaign type="integer">0</overage_per_trivia_campaign>
+   <num_text2win_campaigns type="integer">0</num_text2win_campaigns>
+   <overage_per_text2win_campaign type="integer">0</overage_per_text2win_campaign>
+   <num_social_campaigns type="integer">0</num_social_campaigns>
+   <overage_per_social_campaign type="integer">0</overage_per_social_campaign>
+   <num_pc_campaigns type="integer">0</num_pc_campaigns>
+   <overage_per_pc_campaign type="integer">0</overage_per_pc_campaign>
+   <num_pck_campaigns type="integer">0</num_pck_campaigns>
+   <overage_per_pck_campaign type="integer">0</overage_per_pck_campaign>
+   <num_allotted_clients type="string">1000</num_allotted_clients>
+   <overage_rate_per_client type="integer">0</overage_rate_per_client>
+  </US>
+ </data>
+</response>

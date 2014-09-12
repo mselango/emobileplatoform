@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class eMobilePlatform_SDK\Result | eMobilePlatform SDK</title>
+
+	<script type="text/javascript" src="resources/combined.js?1635249860"></script>
+	<script type="text/javascript" src="elementlist.js?3969219498"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-eMobilePlatform_SDK.html">eMobilePlatform_SDK</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-eMobilePlatform_SDK.eMobilePlatform.html">eMobilePlatform</a></li>
+				<li><a href="class-eMobilePlatform_SDK.Param.html">Param</a></li>
+				<li class="active"><a href="class-eMobilePlatform_SDK.Result.html">Result</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-eMobilePlatform_SDK.html" title="Summary of eMobilePlatform_SDK"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Result</h1>
+
+
+	<div class="description">
+	
+<p>This class creates a result object after an API operation has occured. This
+result object will contain the status code and status message for every API
+operation. Additionally, it may contain an array of results.</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		<b>Final</b><br />
+		
+		<b>Namespace:</b> <a href="namespace-eMobilePlatform_SDK.html">eMobilePlatform_SDK</a><br />
+		<b>Package:</b> eMobilePlatform\SDK<br />
+
+				<b>Copyright:</b>
+				(c) 2013, AvidMobile, LLC<br />
+				<b>License:</b>
+				<a href="../license.txt">../license.txt</a><br />
+				<b>Version:</b>
+				1.0<br />
+		<b>Located at</b> includes/classes/Result.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code>__construct( <span>integer <var>$code</var></span>, <span>string <var>$message</var></span>, <span>array|null <var>$data</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>The constructor that creates a result object.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The constructor that creates a result object.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$code</var></dt>
+					<dd><code>integer</code><br>$code The status code of the operation.</dd>
+					<dt><var>$message</var></dt>
+					<dd><code>string</code><br>$message The status message of the operation.</dd>
+					<dt><var>$data</var></dt>
+					<dd><code>array|null</code><br>$data The optional result array.</dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-InvalidArgumentException.html">InvalidArgumentException</a></code></code><br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCode" id="_getCode">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCode">#</a>
+		<code>getCode( )</code>
+
+		<div class="description short">
+			
+<p>Returns the status code.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the status code.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getData" id="_getData">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getData">#</a>
+		<code>getData( )</code>
+
+		<div class="description short">
+			
+<p>Returns the structure of data to be returned to the user.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns the structure of data to be returned to the user.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getMessage" id="_getMessage">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getMessage">#</a>
+		<code>getMessage( )</code>
+
+		<div class="description short">
+			
+<p>Gets the human friendly status message.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Gets the human friendly status message.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isSuccessful" id="_isSuccessful">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isSuccessful">#</a>
+		<code>isSuccessful( )</code>
+
+		<div class="description short">
+			
+<p>Returns true if the API operation was successful. It returns false
+otherwise.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Returns true if the API operation was successful. It returns false
+otherwise.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br>True on success; false otherwise.<br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+	<table class="summary" id="constants">
+	<caption>Constants summary</caption>
+	<tr data-order="ERROR_LEVEL_SUCCESS" id="ERROR_LEVEL_SUCCESS">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+<b>ERROR_LEVEL_SUCCESS</b>		</code></td>
+		<td class="value"><code><span class="php-num">0</span></code></td>
+		<td class="description"><div>
+			<a href="#ERROR_LEVEL_SUCCESS" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The error code that represents the operation completed with success.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The error code that represents the operation completed with success.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ERROR_LEVEL_WARNING" id="ERROR_LEVEL_WARNING">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+<b>ERROR_LEVEL_WARNING</b>		</code></td>
+		<td class="value"><code><span class="php-num">1</span></code></td>
+		<td class="description"><div>
+			<a href="#ERROR_LEVEL_WARNING" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The error code that represents a warning. For example, a non-critical name
+conflict occurs.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The error code that represents a warning. For example, a non-critical name
+conflict occurs.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="ERROR_LEVEL_FATAL" id="ERROR_LEVEL_FATAL">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+<b>ERROR_LEVEL_FATAL</b>		</code></td>
+		<td class="value"><code><span class="php-num">2</span></code></td>
+		<td class="description"><div>
+			<a href="#ERROR_LEVEL_FATAL" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The error code that represents a fatal error. For example, the wrong
+credentials were supplied.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The error code that represents a fatal error. For example, the wrong
+credentials were supplied.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="code" id="$code">
+		<td class="attributes"><code>
+			private  
+			integer
+		</code></td>
+
+		<td class="name">
+<var>$code</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$code" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The eMobilePlatform API constants for an error's status.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The eMobilePlatform API constants for an error's status.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="data" id="$data">
+		<td class="attributes"><code>
+			private  
+			array
+		</code></td>
+
+		<td class="name">
+<var>$data</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$data" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>An optional parameter that can be used to return information from the
+API.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>An optional parameter that can be used to return information from the
+API.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="message" id="$message">
+		<td class="attributes"><code>
+			private  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$message</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$message" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The human friendly message of the API response.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The human friendly message of the API response.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		eMobilePlatform SDK API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="0" message="Total charge between 2013-06-01 and 2013-09-01"/>
+ <data null="false">
+  <total type="integer">48</total>
+  <US_base type="NULL"></US_base>
+  <US_mts type="array">
+   <included type="NULL"></included>
+   <overage type="NULL"></overage>
+   <used type="NULL"></used>
+   <charge type="integer">0</charge>
+  </US_mts>
+  <US_mos type="array">
+   <included type="NULL"></included>
+   <overage type="NULL"></overage>
+   <used type="NULL"></used>
+   <charge type="integer">0</charge>
+  </US_mos>
+  <mobile_sites type="array">
+   <included type="integer">1</included>
+   <overage type="integer">4</overage>
+   <used type="NULL"></used>
+   <charge type="integer">0</charge>
+  </mobile_sites>
+  <client type="array">
+   <included type="integer">1</included>
+   <overage type="integer">4</overage>
+   <used type="integer">13</used>
+   <charge type="integer">48</charge>
+  </client>
+ </data>
+</response>

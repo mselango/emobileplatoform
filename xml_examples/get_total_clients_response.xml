@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="0" message="Information obtained successfully."/>
+ <data null="false">
+  <total_no_clients type="integer">13</total_no_clients>
+ </data>
+</response>

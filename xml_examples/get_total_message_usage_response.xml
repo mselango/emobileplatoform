@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="0" message="Information obtained successfully."/>
+ <data null="false">
+  <US type="array">
+   <keywords type="integer">XX</keywords>
+   <mos type="integer">6333</mos>
+   <mts type="integer">15040</mts>
+  </US>
+ </data>
+</response>

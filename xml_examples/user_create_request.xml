@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<operation api_version="1.0" type="submit">
+ <auth username="ENTER_USERNAME_HERE" api_key="ENTER_API_KEY_HERE"/>
+ <action group="user" method="create"/>
+ <param null="false">
+  <account_id type="integer">XXXX</account_id>
+  <first_name type="string">John</first_name>
+  <last_name type="string">Doe</last_name>
+  <email type="string">john.doe15@example.com</email>
+  <mobile type="string">1111111111</mobile>
+  <phone type="string">1111111111</phone>
+  <website type="string">example.com</website>
+  <username type="string">rprincipe_test15</username>
+  <password type="string">rprincipeQWERTY202015</password>
+  <permission_group_id type="integer">1</permission_group_id>
+ </param>
+</operation>

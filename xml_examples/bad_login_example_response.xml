@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="2" message="Invalid User Credentials Supplied."/>
+ <data null="true"/>
+</response>

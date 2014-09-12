@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class eMobilePlatform_SDK\eMobilePlatform | eMobilePlatform SDK</title>
+
+	<script type="text/javascript" src="resources/combined.js?1635249860"></script>
+	<script type="text/javascript" src="elementlist.js?3969219498"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-eMobilePlatform_SDK.html">eMobilePlatform_SDK</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-eMobilePlatform_SDK.eMobilePlatform.html">eMobilePlatform</a></li>
+				<li><a href="class-eMobilePlatform_SDK.Param.html">Param</a></li>
+				<li><a href="class-eMobilePlatform_SDK.Result.html">Result</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-eMobilePlatform_SDK.html" title="Summary of eMobilePlatform_SDK"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class eMobilePlatform</h1>
+
+
+	<div class="description">
+	
+<p>This class is the main file for the eMobilePlatform - SDK package. This class
+controls the creating of the properly formatted XML and the transmitting of said
+XML to eMobilePlatform's systems.</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		<b>Final</b><br />
+		
+		<b>Namespace:</b> <a href="namespace-eMobilePlatform_SDK.html">eMobilePlatform_SDK</a><br />
+		<b>Package:</b> eMobilePlatform\SDK<br />
+
+				<b>Copyright:</b>
+				(c) 2013, AvidMobile, LLC<br />
+				<b>License:</b>
+				<a href="../license.txt">../license.txt</a><br />
+				<b>Version:</b>
+				1.0<br />
+		<b>Located at</b> eMobilePlatform.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code>__construct( <span>string <var>$username</var></span>, <span>string <var>$apiKey</var></span> )</code>
+
+		<div class="description short">
+			
+<p>The default constructor for this class. It is recommneded that the values
+passed be named constants in your PHP5 application.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>The default constructor for this class. It is recommneded that the values
+passed be named constants in your PHP5 application.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$username</var></dt>
+					<dd><code>string</code><br>$username</dd>
+					<dt><var>$apiKey</var></dt>
+					<dd><code>string</code><br>$apiKey</dd>
+				</dl></div>
+
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-InvalidArgumentException.html">InvalidArgumentException</a></code></code><br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="executeAction" id="_executeAction">
+
+		<td class="attributes"><code>
+			 public 
+			<code><a href="class-eMobilePlatform_SDK.Result.html">eMobilePlatform_SDK\Result</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_executeAction">#</a>
+		<code>executeAction( <span>string <var>$groupName</var></span>, <span>string <var>$methodName</var></span>, <span><code><a href="class-eMobilePlatform_SDK.Param.html">eMobilePlatform_SDK\Param</a></code> <var>$params</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>This function executes the eMobilePlatform operation. Simply supply the group
+and method name. Most actions will require an additional parameter object. See
+the documentation for more information.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>This function executes the eMobilePlatform operation. Simply supply the group
+and method name. Most actions will require an additional parameter object. See
+the documentation for more information.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$groupName</var></dt>
+					<dd><code>string</code><br>$groupName The family of functions to access.</dd>
+					<dt><var>$methodName</var></dt>
+					<dd><code>string</code><br>$methodName The specific operation to preform.</dd>
+					<dt><var>$params</var></dt>
+					<dd><code><code><a href="class-eMobilePlatform_SDK.Param.html">eMobilePlatform_SDK\Param</a></code></code><br>$params An optional param object.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-eMobilePlatform_SDK.Result.html">eMobilePlatform_SDK\Result</a></code></code><br>A result object.<br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-InvalidArgumentException.html">InvalidArgumentException</a></code></code><br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="generateXML" id="_generateXML">
+
+		<td class="attributes"><code>
+			 private 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_generateXML">#</a>
+		<code>generateXML( <span>string <var>$groupName</var></span>, <span>string <var>$methodName</var></span>, <span>array|null <var>$params</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Generates and returns the XML required by the eMobilePlatform API.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Generates and returns the XML required by the eMobilePlatform API.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$groupName</var></dt>
+					<dd><code>string</code><br>$groupName The family of functions to access.</dd>
+					<dt><var>$methodName</var></dt>
+					<dd><code>string</code><br>$methodName The specific operation to preform.</dd>
+					<dt><var>$params</var></dt>
+					<dd><code>array|null</code><br>$params An optional array of parameters.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>The returned XML as a string.<br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-InvalidArgumentException.html">InvalidArgumentException</a></code></code><br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="parseResult" id="_parseResult">
+
+		<td class="attributes"><code>
+			 private 
+			<code><a href="class-eMobilePlatform_SDK.Result.html">eMobilePlatform_SDK\Result</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_parseResult">#</a>
+		<code>parseResult( <span>string <var>$resultXML</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Parses the returned XML and creates an API result object.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Parses the returned XML and creates an API result object.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$resultXML</var></dt>
+					<dd><code>string</code><br>$resultXML The XML string from cURL.</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><code><a href="class-eMobilePlatform_SDK.Result.html">eMobilePlatform_SDK\Result</a></code></code><br>An API result object.<br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-InvalidArgumentException.html">InvalidArgumentException</a></code></code><br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sendXML" id="_sendXML">
+
+		<td class="attributes"><code>
+			 private 
+			string|null
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sendXML">#</a>
+		<code>sendXML( <span>string <var>$xml</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Sends the XML to the API servers and then receives a response. The response
+is returned as a XML string. This function writes to the the PHP error log if
+there is a cURL error.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Sends the XML to the API servers and then receives a response. The response
+is returned as a XML string. This function writes to the the PHP error log if
+there is a cURL error.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$xml</var></dt>
+					<dd><code>string</code><br>$xml</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string|null</code><br>XML<br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><code><a href="class-InvalidArgumentException.html">InvalidArgumentException</a></code></code><br />
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+	<table class="summary" id="constants">
+	<caption>Constants summary</caption>
+	<tr data-order="API_URL" id="API_URL">
+
+		<td class="attributes"><code>string</code></td>
+		<td class="name"><code>
+<b>API_URL</b>		</code></td>
+		<td class="value"><code><span class="php-quote">'https://api.emobileplatform.com/V1/'</span></code></td>
+		<td class="description"><div>
+			<a href="#API_URL" class="anchor">#</a>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="username" id="$username">
+		<td class="attributes"><code>
+			private  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$username</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$username" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The username that is used to connect to the API.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The username that is used to connect to the API.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="apiKey" id="$apiKey">
+		<td class="attributes"><code>
+			private  
+			string
+		</code></td>
+
+		<td class="name">
+<var>$apiKey</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$apiKey" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>The API key that is used to authenticate the API user. Contact the support
+department for a replacement.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>The API key that is used to authenticate the API user. Contact the support
+department for a replacement.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		eMobilePlatform SDK API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

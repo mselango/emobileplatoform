@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="0" message="User information updated successfully."/>
+ <data null="false">
+  <value_0 type="boolean">1</value_0>
+ </data>

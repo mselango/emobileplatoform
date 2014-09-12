@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<operation api_version="1.0" type="submit">
+ <auth username="ENTER_USERNAME_HERE" api_key="ENTER_API_KEY_HERE"/>
+ <action group="message" method="delete"/>
+ <param null="false">
+  <account_id type="integer">XXXX</account_id>
+  <keyword_id type="integer">XXXX</keyword_id>
+  <shortcode type="integer">63975</shortcode>
+ </param>
+</operation>

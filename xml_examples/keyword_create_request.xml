@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<operation api_version="1.0" type="submit">
+ <auth username="ENTER_USERNAME_HERE" api_key="ENTER_API_KEY_HERE"/>
+ <action group="message" method="create"/>
+ <param null="false">
+  <account_id type="integer">XXXX</account_id>
+  <name type="string">KEYWORD CREATE TEST</name>
+  <keyword type="string">create5</keyword>
+  <reply type="string">TEST</reply>
+  <shortcode type="integer">63975</shortcode>
+  <start type="string">2013-11-5 10:00:00</start>
+  <start_timezone type="string">P</start_timezone>
+  <end type="string">2015-09-05 21:09:59</end>
+  <end_timezone type="string">P</end_timezone>
+  <callbackurl type="string">example.com</callbackurl>
+ </param>
+</operation>

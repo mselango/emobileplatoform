@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<operation api_version="1.0" type="submit">
+ <auth username="ENTER_USERNAME_HERE" api_key="ENTER_API_KEY_HERE"/>
+ <action group="account" method="update"/>
+ <param null="false">
+  <account_id type="integer">XXXX</account_id>
+  <company_name type="string">ACME Test Company</company_name>
+  <business_details type="string">Mobile Marketing</business_details>
+  <schema_name type="string">acme</schema_name>
+  <address_type type="string">business</address_type>
+  <address_line1 type="string">12345 Maple Ln.</address_line1>
+  <address_line2 type="string">APT 1001</address_line2>
+  <city type="string">Madison</city>
+  <state type="string">MO</state>
+  <zip type="string">64105</zip>
+  <country type="string">US</country>
+  <phone type="string">1111111111</phone>
+  <fax type="string">1111111111</fax>
+  <shortcodes type="string">72727</shortcodes>
+  <account_permission_group_id type="integer">15</account_permission_group_id>
+ </param>
+</operation>

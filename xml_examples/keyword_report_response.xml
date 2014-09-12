@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="0" message="Keyword Report Obtained Successsfully "/>
+ <data null="false">
+  <keyword_report type="array">
+   <keyword_0 type="array">
+    <id type="string">XXXX</id>
+    <reply_count type="integer">1</reply_count>
+    <name type="string">Demo_Ken</name>
+    <keyword type="string">Arnis</keyword>
+    <start_time type="string">2013-07-09 00:00:00</start_time>
+    <start_timezone type="string">E</start_timezone>
+    <end_time type="string">2037-12-01 00:00:00</end_time>
+    <end_timezone type="string">E</end_timezone>
+   </keyword_0>
+   <keyword_1 type="array">
+    <id type="string">XXXX</id>
+    <reply_count type="integer">7</reply_count>
+    <name type="string">Demo_Scott</name>
+    <keyword type="string">scott</keyword>
+    <start_time type="string">2013-07-09 00:00:00</start_time>
+    <start_timezone type="string">E</start_timezone>
+    <end_time type="string">2037-12-01 00:00:00</end_time>
+    <end_timezone type="string">E</end_timezone>
+   </keyword_1>
+   <keyword_2 type="array">
+    <id type="string">XXXX</id>
+    <reply_count type="integer">1</reply_count>
+    <name type="string">Oil Change Coupon</name>
+    <keyword type="string">Demo_Auto</keyword>
+    <start_time type="string">2013-05-06 00:00:00</start_time>
+    <start_timezone type="string">E</start_timezone>
+    <end_time type="string">2037-12-01 00:00:00</end_time>
+    <end_timezone type="string">E</end_timezone>
+   </keyword_2>
+  </keyword_report>
+ </data>
+</response>

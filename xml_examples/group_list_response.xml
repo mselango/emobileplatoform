@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="0" message="Group List Obtained Successsfully "/>
+ <data null="false">
+  <group_list type="array">
+   <group_0 type="array">
+    <id type="string">191380</id>
+    <name type="string">#Hit Keyword 'create1'</name>
+    <type type="string">DYNAMIC_KEYWORD</type>
+   </group_0>
+   <group_1 type="array">
+    <id type="string">XXXX</id>
+    <name type="string">SMS BLAST TEST53</name>
+    <type type="string">STATIC</type>
+    <member_0 type="array">
+     <group_id type="string">XXXX</group_id>
+     <first_name type="string">Rohit</first_name>
+     <last_name type="string">R</last_name>
+     <phone_num type="string">+1XXXXXXXXXX</phone_num>
+    </member_0>
+    <member_1 type="array">
+     <group_id type="string">XXXX</group_id>
+     <first_name type="string">Rohit</first_name>
+     <last_name type="string">R1</last_name>
+     <phone_num type="string">+1XXXXXXXXXX</phone_num>
+    </member_1>
+    <member_2 type="array">
+     <group_id type="string">XXXX</group_id>
+     <first_name type="string">Rohit</first_name>
+     <last_name type="string">R</last_name>
+     <phone_num type="string">+1XXXXXXXXXX</phone_num>
+    </member_2>
+    <member_3 type="array">
+     <group_id type="string">XXXX</group_id>
+     <first_name type="string">ABCD</first_name>
+     <last_name type="string">DCBA</last_name>
+     <phone_num type="string">+1XXXXXXXXXX</phone_num>
+    </member_3>
+   </group_1>
+   <group_2 type="array">
+    <id type="string">XXXX</id>
+    <name type="string">TEST CG</name>
+    <type type="string">GROUPS</type>
+   </group_2>
+   <group_3 type="array">
+    <id type="string">XXXX</id>
+    <name type="string">TEST DG</name>
+    <type type="string">DYNAMIC_KEYWORD</type>
+   </group_3>
+  </group_list>
+ </data>
+</response>

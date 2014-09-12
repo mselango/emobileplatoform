@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<operation api_version="1.0" type="submit">
+ <auth username="ENTER_USERNAME_HERE" api_key="ENTER_API_KEY_HERE"/>
+ <action group="account" method="delete"/>
+ <param null="false">
+  <account_id type="integer">XXXX</account_id>
+ </param>
+</operation>

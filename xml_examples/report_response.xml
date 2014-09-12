@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="0" message="Billing Usage Gathered"/>
+ <data null="false">
+  <total_keyword_campaign type="string">0</total_keyword_campaign>
+  <total_poll_campaign type="string">0</total_poll_campaign>
+  <total_auto_response_campaign type="string">0</total_auto_response_campaign>
+  <total_tagged_event_campaign type="string">0</total_tagged_event_campaign>
+  <total_survey_campaign type="string">0</total_survey_campaign>
+  <total_trivia_campaign type="string">0</total_trivia_campaign>
+  <total_text2win_campaign type="string">0</total_text2win_campaign>
+  <total_social_campaign type="string">0</total_social_campaign>
+  <total_pc_campaign type="string">0</total_pc_campaign>
+  <total_pck_campaign type="string">0</total_pck_campaign>
+  <total_clients type="integer">0</total_clients>
+  <mt type="integer">2</mt>
+  <mo type="integer">0</mo>
+  <keyword type="integer">0</keyword>
+  <free_websites type="string">1</free_websites>
+  <paid_websites type="string">1</paid_websites>
+ </data>
+</response>

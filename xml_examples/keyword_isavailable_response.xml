@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="0" message="Keyword is available"/>
+ <data null="false">
+  <shortcode_72727 type="string">Available</shortcode_72727>
+  <shortcode_28748 type="string">Available</shortcode_28748>
+  <shortcode_63975 type="string">Not_Available</shortcode_63975>
+  <shortcode_55469 type="string">Available</shortcode_55469>
+  <shortcode_21777 type="string">Available</shortcode_21777>
+  <shortcode_555444 type="string">Not_Available</shortcode_555444>
+ </data>
+</response>

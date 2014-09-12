@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="0" message="Keyword Details Report Generated"/>
+ <data null="false">
+  <value_0 type="array">
+   <id type="string">167590</id>
+   <name type="string">KEYWORD CREATE TEST</name>
+   <keyword type="string">create1</keyword>
+   <reply type="string">TEST</reply>
+   <start_time type="string">2013-11-05 10:00:00</start_time>
+   <start_timezone type="string">P</start_timezone>
+   <end_time type="string">2015-09-05 21:09:59</end_time>
+   <end_timezone type="string">P</end_timezone>
+   <options type="string">4</options>
+   <callbackurl type="string">example.com</callbackurl>
+  </value_0>
+  <value_1 type="array">
+   <id type="string">167883</id>
+   <name type="string">KEYWORD CREATE TEST</name>
+   <keyword type="string">create3</keyword>
+   <reply type="string">TEST</reply>
+   <start_time type="string">2013-11-05 10:00:00</start_time>
+   <start_timezone type="string">P</start_timezone>
+   <end_time type="string">2015-09-05 21:09:59</end_time>
+   <end_timezone type="string">P</end_timezone>
+   <options type="string">4</options>
+   <callbackurl type="string">example.com</callbackurl>
+  </value_1>
+ </data>
+</response>

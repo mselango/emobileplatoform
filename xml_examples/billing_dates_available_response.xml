@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="0" message="These are the possible billing dates"/>
+ <data null="false">
+  <qwasi_id_4146 type="array">
+   <year_2013 type="array">
+    <month_0 type="integer">11</month_0>
+    <month_1 type="integer">10</month_1>
+    <month_2 type="integer">9</month_2>
+    <month_3 type="integer">8</month_3>
+    <month_4 type="integer">7</month_4>
+    <month_5 type="integer">6</month_5>
+    <month_6 type="integer">5</month_6>
+   </year_2013>
+  </qwasi_id_4146>
+ </data>
+</response>

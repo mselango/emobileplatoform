@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<operation api_version="1.0" type="submit">
+ <auth username="ENTER_USERNAME_HERE" api_key="ENTER_API_KEY_HERE"/>
+ <action group="message" method="send"/>
+ <param null="false">
+  <mobile type="string">XXXXXXXXXX</mobile>
+  <shortcode type="string">72727</shortcode>
+  <message type="string">Hello World!</message>
+  <mc_id type="string">XXXX</mc_id>
+ </param>
+</operation>

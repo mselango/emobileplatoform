@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="0" message="Keyword Details Updated"/>
+ <data null="false">
+  <keyword_updated type="integer">1</keyword_updated>
+ </data>
+</response>

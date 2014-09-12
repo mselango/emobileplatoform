@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="0" message="Message Sent"/>
+ <data null="false">
+  <Message_Sent type="integer">1</Message_Sent>
+ </data>
+</response>

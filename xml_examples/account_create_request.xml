@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<operation api_version="1.0" type="submit">
+ <auth username="ENTER_USERNAME_HERE" api_key="ENTER_API_KEY_HERE"/>
+ <action group="account" method="create"/>
+ <param null="false">
+  <first_name type="string">John</first_name>
+  <last_name type="string">Doe</last_name>
+  <company_name type="string">ACME Test Company</company_name>
+  <email type="string">john.doe5@example.com</email>
+  <mobile type="string">1111111111</mobile>
+  <phone type="string">1111111111</phone>
+  <fax type="string">5555555555</fax>
+  <website type="string">example.com</website>
+  <subdomain type="string">acme5</subdomain>
+  <business_details type="string">Mobile Marketing</business_details>
+  <address_type type="string">business</address_type>
+  <address_line1 type="string">12345 Maple Ln.</address_line1>
+  <address_line2 type="string">APT 101</address_line2>
+  <city type="string">Madison</city>
+  <state type="string">WI</state>
+  <zip type="string">53715</zip>
+  <country type="string">US</country>
+  <username type="string">rprincipe_test5</username>
+  <password type="string">rprincipeQWERTY20205</password>
+  <parent_id type="string">XXXX</parent_id>
+  <shortcodes type="string">72727</shortcodes>
+ </param>
+</operation>

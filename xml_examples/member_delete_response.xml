@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="0" message="Member Deleted Successsfully"/>
+ <data null="false">
+  <member_deleted type="integer">1</member_deleted>
+ </data>
+</response>

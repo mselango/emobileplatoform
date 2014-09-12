@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="0" message="Account (ID: XXXX) successfully deleted."/>
+ <data null="false">
+  <account_id type="integer">XXXX</account_id>
+ </data>
+</response>

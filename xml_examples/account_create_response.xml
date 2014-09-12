@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="0" message="Account Created"/>
+ <data null="false">
+  <status type="boolean">1</status>
+  <message type="string">Account created id: XXXX</message>
+  <error_details type="NULL"></error_details>
+  <account_id type="integer">XXXX</account_id>
+  <level type="string">Reseller</level>
+  <user_id type="integer">XXXX</user_id>
+  <zendesk_user_id type="integer">XXXXX</zendesk_user_id>
+  <qwasi_parent_id type="integer">XXXX</qwasi_parent_id>
+  <co type="array">
+   <us type="string">us</us>
+  </co>
+  <qwasi_id type="array">
+   <us type="string">XXXX</us>
+  </qwasi_id>
+ </data>
+</response>

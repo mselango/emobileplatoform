@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="0" message="Statement generated successfully."/>
+ <data null="false">
+  <included_clients type="integer">2</included_clients>
+  <included_mobile_sites type="integer">4</included_mobile_sites>
+  <additional_mobile_sites type="integer">0</additional_mobile_sites>
+  <additional_clients type="integer">1</additional_clients>
+  <US type="array">
+   <base_price type="integer">0</base_price>
+   <included_mos type="integer">0</included_mos>
+   <included_mts type="integer">0</included_mts>
+   <included_keyword type="integer">0</included_keyword>
+   <additional_mos type="integer">6333</additional_mos>
+   <additional_mts type="integer">15040</additional_mts>
+   <additional_keyword type="integer">0</additional_keyword>
+  </US>
+  <account_type type="integer">2</account_type>
+ </data>
+</response>

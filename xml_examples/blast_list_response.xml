@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="0" message="SMS Blast Campaign Obtained Successsfully "/>
+ <data null="false">
+  <blast_0 type="array">
+   <id type="string">XXXX</id>
+   <name type="string">SMS BLAST TEST15</name>
+   <blast_text type="string">THIS IS A TEST SMS BLAST</blast_text>
+   <blast_type type="string">text</blast_type>
+   <creation_date type="string">2013-12-10 10:25:55</creation_date>
+   <start_time type="string">2013-12-09 10:52:00</start_time>
+  </blast_0>
+  <blast_1 type="array">
+   <id type="string">XXXX</id>
+   <name type="string">SMS BLAST TEST15</name>
+   <blast_text type="string">THIS IS A TEST SMS BLAST</blast_text>
+   <blast_type type="string">text</blast_type>
+   <creation_date type="string">2013-12-10 10:30:09</creation_date>
+   <start_time type="string">2013-12-09 10:30:00</start_time>
+  </blast_1>
+  <blast_2 type="array">
+   <id type="string">XXXX</id>
+   <name type="string">SMS BLAST TEST15</name>
+   <blast_text type="string">THIS IS A TEST SMS BLAST</blast_text>
+   <blast_type type="string">text</blast_type>
+   <creation_date type="string">2013-12-10 11:26:54</creation_date>
+   <start_time type="string">2013-12-09 10:00:00</start_time>
+  </blast_2>
+  <blast_3 type="array">
+   <id type="string">XXXX</id>
+   <name type="string">SMS BLAST TEST3</name>
+   <blast_text type="string">THIS IS A TEST SMS BLAST</blast_text>
+   <blast_type type="string">text</blast_type>
+   <creation_date type="string">2013-12-06 10:37:49</creation_date>
+   <start_time type="string">2013-12-09 09:52:00</start_time>
+  </blast_3>
+ </data>
+</response>

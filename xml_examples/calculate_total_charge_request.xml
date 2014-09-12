@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<operation api_version="1.0" type="submit">
+ <auth username="ENTER_USERNAME_HERE" api_key="ENTER_API_KEY_HERE"/>
+ <action group="billing" method="calculate_total_charge"/>
+ <param null="false">
+  <account_id type="integer">XXXX</account_id>
+  <start_date type="string">2013-06-01</start_date>
+  <end_date type="string">2013-09-01</end_date>
+ </param>
+</operation>

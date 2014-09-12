@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="0" message="SMS Blast Campaign Report Obtained Successsfully"/>
+ <data null="false">
+  <blast_campaign_report type="array">
+   <blast_0 type="array">
+    <id type="string">177353</id>
+    <name type="string">SMS BLAST TEST15</name>
+    <blast_text type="string">THIS IS A TEST SMS BLAST 123</blast_text>
+    <blast_type type="string">text</blast_type>
+    <creation_date type="string">2013-12-11 11:27:40</creation_date>
+    <start_time type="string">2013-12-12 10:52:00</start_time>
+    <num_rcpt type="integer">3</num_rcpt>
+   </blast_0>
+   <blast_1 type="array">
+    <id type="string">177275</id>
+    <name type="string">SMS BLAST TEST15</name>
+    <blast_text type="string">THIS IS A TEST SMS BLAST</blast_text>
+    <blast_type type="string">text</blast_type>
+    <creation_date type="string">2013-12-11 08:52:50</creation_date>
+    <start_time type="string">2013-12-09 10:52:00</start_time>
+    <num_rcpt type="integer">4</num_rcpt>
+   </blast_1>
+  </blast_campaign_report>
+ </data>
+</response>

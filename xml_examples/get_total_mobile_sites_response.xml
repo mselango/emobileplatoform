@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response api_version="1.0" type="submit">
+ <status code="0" message="Information obtained successfully."/>
+ <data null="false">
+  <total_mobile_sites type="integer">3</total_mobile_sites>
+ </data>
+</response>
